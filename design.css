@@ -1,8 +1,10 @@
 body{
-    background-color: rgb(121, 156, 176);
+    /*I don't have many comments because most of the code is straight-forward*/
+    /*It changes the background-color to some color*/
+    background-color: rgb(121, 156, 176); /*it is a color after the colon*/
     color: black;
 }
-.dark-mode{
+.dark-mode{/* . before the name means that it is a class*/
     background-color: black;
     color: rgb(121, 156, 176);
 }
@@ -45,7 +47,7 @@ html{
     align-items: center;
 }
 
-#about-me h1{
+#about-me h1{/* # before the name means that it is an id */
     font-size: 65px;
     margin-top: 90px;
 }
